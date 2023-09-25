@@ -1,0 +1,41 @@
+.container {
+  width: 600px;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  padding: 25px 100px;
+  margin: 0px auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons span {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reset {
+  display: block;
+  margin: 30px auto;
+  padding: 5px 10px;
+}
